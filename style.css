@@ -1062,3 +1062,369 @@ section{
     font-style:italic;
 
 }
+    
+    /* ========================================= */
+/* RODAPÉ */
+/* ========================================= */
+
+footer{
+
+    margin-top:80px;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    background:rgba(255,255,255,.04);
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    color:#DDD6FE;
+
+}
+
+footer p{
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+}
+
+footer small{
+
+    color:#BFAEEB;
+
+    }r{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#3B82F6;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#2563EB;
+}
+
+/* ========================================= */
+/* RESPONSIVO */
+/* ========================================= */
+
+@media(max-width:900px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:18px;
+
+        padding:18px;
+
+    }
+
+    .navbar ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    #hero h1{
+
+        font-size:2.3rem;
+
+    }
+
+    #typing{
+
+        font-size:1.1rem;
+
+    }
+
+    .profile{
+
+        width:140px;
+        height:140px;
+
+    }
+
+    section h2{
+
+        font-size:1.8rem;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .buttons a{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .timeline
+    
+    /* ================================================= */
+/* HERO CARD */
+/* ================================================= */
+
+.hero-card{
+
+    position:relative;
+
+    width:min(420px,95%);
+
+    padding:40px 30px;
+
+    border-radius:35px;
+
+    background:rgba(255,255,255,.06);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+/* Lua */
+
+.moon{
+
+    position:absolute;
+
+    width:220px;
+
+    height:220px;
+
+    background:#C4B5FD;
+
+    border-radius:50%;
+
+    top:-110px;
+
+    right:-110px;
+
+    opacity:.15;
+
+    filter:blur(10px);
+
+}
+
+/* Avatar */
+
+.avatar{
+
+    margin:auto;
+
+}
+
+/* Títulos */
+
+.hero-card h1{
+
+    margin-top:25px;
+
+}
+
+.hero-card h2{
+
+    font-weight:600;
+
+}
+
+.hero-card p{
+
+    margin-top:20px;
+
+    margin-bottom:30px;
+
+}
+
+/* Brilho */
+
+.hero-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:-120px;
+
+    left:-120px;
+
+    width:250px;
+
+    height:250px;
+
+    background:white;
+
+    opacity:.03;
+
+    border-radius:50%;
+
+}
+    
+    /* ========================================= */
+/* MEU UNIVERSO */
+/* ========================================= */
+
+.universe-text{
+
+    margin-top:10px;
+    margin-bottom:35px;
+
+    color:#DDD6FE;
+
+}
+
+.likes{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:20px;
+
+}
+
+.like-card{
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:25px;
+
+    backdrop-filter:blur(15px);
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.like-card:hover{
+
+    transform:translateY(-8px);
+
+    background:rgba(139,92,246,.18);
+
+    box-shadow:0 10px 25px rgba(139,92,246,.2);
+
+}
+
+.like-card h3{
+
+    margin:15px 0 10px;
+
+    color:#D8B4FE;
+
+}
+
+.like-card p{
+
+    font-size:.95rem;
+
+    color:#DDD6FE;
+
+    line-height:1.6;
+
+}
+   /* ================================================= */
+/* CARTA PARA HANAKO */
+/* ================================================= */
+
+#hanako{
+
+    padding-top:40px;
+
+}
+
+.letter{
+
+    position:relative;
+
+    max-width:700px;
+
+    margin:auto;
+
+    padding:40px;
+
+    border-radius:28px;
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+.heart{
+
+    display:block;
+
+    font-size:2rem;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.letter p{
+
+    color:#F3E8FF;
+
+    line-height:2;
+
+    text-align:center;
+
+}
+
+.signature{
+
+    margin-top:35px;
+
+    text-align:right;
+
+    color:#D8B4FE;
+
+    font-style:italic;
+
+}
